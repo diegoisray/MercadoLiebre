@@ -1,0 +1,38 @@
+footer{
+    background-color: white;
+}
+
+
+footer i{
+    font-size: 2em;
+    color: var(--color-celeste);
+    padding-top: 20px;
+}
+
+.secciones_footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.footer_titulos{
+    color: var(--color-grisoscuro);
+    font-size: 16px;
+}
+
+.footer_descripciones{
+    color: gray;
+    font-size: 12px
+}
+
+
+footer article{
+    padding-bottom: 10px;
+}
+
+.footer_copy{
+    color: gray;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}

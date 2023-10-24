@@ -1,0 +1,41 @@
+header{
+    background-color: #EAC926;
+}
+
+.segundonav{
+    padding-top: 18px;
+}
+
+.slogan{
+    padding-top: 10px;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.buscador{
+    margin-left: 10px;
+}
+
+
+.lupa{
+    display: inline;
+    border: 1px solid black;
+    background-color: var(--color-grisclaro);
+}
+
+
+
+.burger-menu{
+    color: white;
+padding-left: 48%;
+padding-top: 20px;
+padding-bottom: 25px;
+}
+
+.fa-bars{
+    padding: 20px;
+    background-color: var(--color-celeste);
+    border-radius: 8px;
+}
+
