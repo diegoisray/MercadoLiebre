@@ -17,12 +17,12 @@ footer i{
 
 .footer_titulos{
     color: var(--color-grisoscuro);
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .footer_descripciones{
     color: gray;
-    font-size: 12px
+    font-size: 10px
 }
 
 
