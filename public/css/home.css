@@ -1,5 +1,7 @@
 main{
     background-color: var(--color-grisclaro);
+    padding: 4px;
+    margin: 1%
 }
 
 
@@ -10,22 +12,23 @@ main{
 
 .precios{
     font-size: 18px;
+    padding: 5px;
+    
 }
 
 
 .desc{
     font-size: 16px;
+    padding-bottom: 8px;
+    padding: 5px;
 }
 
 main section article{
     background-color: white;
 }
 
-main{
-    padding: 6px;
-    margin: 1%
-}
-
 main article{
     margin-bottom: 20px;
 }
+
+

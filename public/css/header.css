@@ -1,5 +1,5 @@
 header{
-    background-color: #EAC926;
+    background-color: var(--color-amarillo)
 }
 
 .segundonav{
@@ -28,9 +28,9 @@ header{
 
 .burger-menu{
     color: white;
-padding-left: 48%;
-padding-top: 20px;
-padding-bottom: 25px;
+    padding-left: 48%;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 .fa-bars{
@@ -38,4 +38,5 @@ padding-bottom: 25px;
     background-color: var(--color-celeste);
     border-radius: 8px;
 }
+
 
