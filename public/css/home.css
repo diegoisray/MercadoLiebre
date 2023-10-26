@@ -1,7 +1,10 @@
 main{
-    background-color: var(--color-grisclaro);
     padding: 4px;
     margin: 1%
+}
+
+body{
+    background-color: var(--color-grisclaro);
 }
 
 

@@ -1,7 +1,8 @@
-header{
-    background-color: var(--color-amarillo)
+.main-header{
+    background-color: var(--color-amarillo);
+    
 }
-
+ 
 .segundonav{
     padding-top: 18px;
 }
@@ -9,12 +10,14 @@ header{
 .slogan{
     padding-top: 10px;
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
   margin-bottom: 15px;
 }
 
 .buscador{
-    margin-left: 10px;
+    
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 
@@ -25,18 +28,21 @@ header{
 }
 
 
-
-.burger-menu{
+.fas{
     color: white;
-    padding-left: 48%;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    background-color: var(--color-celeste);
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 16px;
 }
 
-.fa-bars{
-    padding: 20px;
-    background-color: var(--color-celeste);
-    border-radius: 8px;
+.caja-burger{
+    margin-bottom: 17px;
 }
 
 
