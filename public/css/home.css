@@ -1,37 +1,75 @@
 main{
-    padding: 4px;
-    margin: 1%
+text-align: center;
+width: 90%;
+margin: 0 15px;
+margin-bottom: 20px;
 }
 
 body{
     background-color: var(--color-grisclaro);
 }
 
+.banner{
+    margin-bottom: 10px;
+    height: 66px;
+}
 
 .titulos{
-    font-size: 24px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: var(--color-grisoscuro);
+   
 }
 
 .precios{
     font-size: 18px;
     padding: 5px;
-    
+    font-weight: normal;
+    text-align: left;
+    margin-left: 9px ;
 }
 
 
 .desc{
     font-size: 16px;
     padding-bottom: 8px;
-    padding: 5px;
+    margin-left: 13px;
+    font-weight: normal;
+    color: var(--color-verde);
+    text-align: left;
 }
+.fa-truck{
+    color: var(--color-verde);
+    padding-top: 5px;
+    padding-right: 5px;
+   }
+.circulo{
+    margin-top: 10px;
+    margin-left: 15px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-verde);
+    border-radius: 100%;
+   }
 
 main section article{
     background-color: white;
+    margin-bottom: 10px;
+    
 }
 
-main article{
-    margin-bottom: 20px;
+
+
+.nombre-producto{
+    display: none;
+    text-align: left;
+   }
+
+   .caja-descripcion{
+    border: 2px var(--color-grisclaro) solid;
+    
 }
 
 
