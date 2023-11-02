@@ -1,33 +1,24 @@
+
 .main-header{
     background-color: var(--color-amarillo);
-    
+    padding: 10px;
 }
-
-.main-navbar li{
-    display: none;
-   }
-
-.logo{
-    margin: 0 20px;
-    margin-top: 20px;
-    width: 150px;
-   }
-
-   .copy-header{
-    padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  margin-bottom: 15px;
-  font-weight: normal;
-    margin-top: 8px;
+header{
+    background-color: var(--color-amarillo);
 }
+ 
 
 .buscador{
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
+    
+    margin-top: 19px;
+   width: 53%;
 }
 
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .lupa{
     display: inline;
     border: 1px solid black;
@@ -43,15 +34,23 @@
     padding: 15px 0;
     border-radius: 8px;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
-.caja-burger{
-    margin-bottom: 17px;
+.main-navbar{
+    display: none;
 }
 
-
-    
+.logo{
+    width: 45%;
+}
+.copy-header{
+    font-weight: 400px;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-weight: normal;
+}
