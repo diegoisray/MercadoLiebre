@@ -42,10 +42,10 @@
     .buscador{
         margin-left: 40px;
         margin-top: 25px;
-        width: 30%;
+        width: 20%;
     }
     .copy-header{
-        max-width: 350px;
+        width: 29%;
         text-align: right;
         margin-top: 30px;
     }
@@ -86,7 +86,7 @@
     .formulario-login{
         display: flex;
         flex-direction: column;
-        margin-left: 25%;
+        margin-left: 20%;
         margin-top: 30px;
         margin-bottom: 30px;
         gap: 25px;
@@ -181,7 +181,8 @@
         width: 300px;
     }
     .buscador{
-        margin-left: 40px;
+      width: 10%;
+        
     }
     .copy-header{
         max-width: none;
@@ -248,7 +249,7 @@
     .formulario-login{
         display: flex;
         flex-direction: column;
-        margin-left: 30%;
+        margin-left: 33%;
         margin-top: 30px;
         margin-bottom: 30px;
         gap: 30px;
