@@ -1,0 +1,35 @@
+.input-usuario{
+    width: 76%;
+   height: 30px;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.input-contraseña{
+    width: 76%;
+   height: 30px;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.boton-enviar{
+    width: 76%;
+    background-color: var(--color-celeste);
+    color: #fff ;
+    height: 30px;
+    border: 1px solid var(--color-celeste);
+    border-radius: 5px;
+
+}
+
+.formulario-login{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  gap: 17px;
+
+}

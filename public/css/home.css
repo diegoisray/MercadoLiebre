@@ -1,6 +1,6 @@
 main{
 width: 90%;
-margin: 0 15px;
+margin: 0 auto;
 margin-bottom: 20px;
 
 }
@@ -60,11 +60,11 @@ body{
     color: var(--color-grisoscuro);
     font-size: 15px;
     margin-left: 12px;
-    text-align: justify
-
+    text-align: justify;
 }
 .caja-descripcion{
     display: flex;
+    
 }
 main section article{
     background-color: white;

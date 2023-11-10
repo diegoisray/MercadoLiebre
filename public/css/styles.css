@@ -2,7 +2,8 @@
 @import url('/css/header.css');
 @import url('/css/footer.css');
 @import url('/css/general.css');
-
+@import url('/css/register.css');
+@import url('/css/login.css');
 
 
 
@@ -79,9 +80,85 @@
  
     .nombre-producto{
         display: initial;
-        font-size: 15px
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    .formulario-login{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 25px;
+      
+      }
+      .input-nombreyapellido-registro {
+        margin-top: 15px;
+        width: 287px;
+        padding: 7px;
+    }
+    .input-usuario-registro {
+        width: 287px;
+        padding: 7px;
+    }
+    .input-email-registro {
+        width: 287px;
+        padding: 7px;
+    }
+    .input-fecha-registro {
+        margin-left: 12%;
+        width: 287px;
+        padding: 7px;
+    }
+    .fecha-nacimiento {
+        font-weight: bold;
+        margin-left: 13%;
+    }
+    .input-domicilio-registro {
+        width: 287px;
+        padding: 7px;
+    }
+    .caja-perfil-user h4 {
+        margin-left: 17px;
+        width: 85%;
+    }
+    .caja-perfil-user {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+    }
+    .perfil-user {
+        font-weight: bold;
+        width: 76%;
+        margin-left: -6%;
+    }
+    .caja-intereses-user {
+        margin-left: 15%;
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .input-contraseña-registro {
+        width: 287px;
+        padding: 7px;
+    }
+    .recuadro-registro {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        background-color: rgb(187, 187, 187);
+        margin: 15px;
+        width: 55%;
+        margin-left: 23%;
+        margin-top: 7%;
+        margin-bottom: 8%;
     }
 }
+
 
 @media (min-width: 769px){
     .main-navbar{
@@ -121,7 +198,6 @@
         margin-bottom: 30px;
     }
     main section article{
-        
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 20%;
       
@@ -143,6 +219,53 @@
         top: 80%;
         
        }
+       .input-usuario{
+        width: 50%;
+       height: 30px;
+       border: 1px solid white;
+    }
+    .input-fecha-registro{
+        margin-left: 15%;
+    }
+    .fecha-nacimiento{
+        margin-left: 15%;
+    }
+    
+    .input-contraseña{
+        width: 50%;
+       height: 30px;
+       border: 1px solid white;
+    }
+    
+   .boton-enviar{
+        width: 50%;
+        background-color: var(--color-celeste);
+        color: #fff ;
+        height: 30px;
+        border: 1px solid var(--color-celeste);
+    
+    }
+    .formulario-login{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+      
+      }
+      .recuadro-registro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        background-color: rgb(187, 187, 187);
+        margin: 15px;
+        width: 30%;
+        margin-left: 33%;
+        margin-top: 3%;
+        margin-bottom: 4%;
+    }
     }
     
 
