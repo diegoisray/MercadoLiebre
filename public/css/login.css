@@ -24,6 +24,12 @@
 
 }
 
+.boton-enviar:hover{
+  transition-duration: 2s;
+  background-color: #0022AA;
+
+}
+
 .formulario-login{
   display: flex;
   flex-direction: column;
@@ -32,4 +38,8 @@
   margin-bottom: 30px;
   gap: 17px;
 
+}
+
+.footer-login{
+  margin-top: 18%;
 }

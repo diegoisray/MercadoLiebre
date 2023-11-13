@@ -55,15 +55,21 @@ body{
     padding: 2%;
    }
   
-
+ 
 .nombre-producto{
     color: var(--color-grisoscuro);
     font-size: 15px;
-    margin-left: 12px;
     text-align: justify;
+    opacity: 0%;
+    margin: 10px 13px;
+}
+
+.nombre-producto:hover{
+  opacity: 100%;
 }
 .caja-descripcion{
     display: flex;
+    
     
 }
 main section article{
@@ -74,6 +80,18 @@ main section article{
     flex-direction: column;
     
 }
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+main section article:hover .fa-truck.fa-solid{
+    transition-duration: 5s;
+        transform: rotate(267deg);
+   
+ }
+ main section article:hover .nombre-producto{
+    transition-duration: 1s;
+    opacity: 100%;;
+ }
 main section article img{
     border-bottom: 2px solid var(--color-grisclaro);
 }
